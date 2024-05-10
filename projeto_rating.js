@@ -27,7 +27,7 @@ class BattleRating {
                 return key;
             }
         }
-        return "Unranked";
+        return "Sem ranque";
     }
 
     get heroDetails() {
@@ -35,5 +35,5 @@ class BattleRating {
     }
 }
 
-let heroi = new BattleRating('Diego', 130, 10);
+let heroi = new BattleRating('Jeffeza', 130, 10);
 console.log(heroi.heroDetails);
